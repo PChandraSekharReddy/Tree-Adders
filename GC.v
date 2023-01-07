@@ -1,3 +1,25 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 27.11.2022 22:21:16
+// Design Name: 
+// Module Name: GC
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
 module GC #(parameter Cell_Width=4)(output group_generate, input [Cell_Width-1:0]g,input [Cell_Width-1:1]p);
 wire [Cell_Width-1:0]genAnd;
 wire [Cell_Width-1:0]genOr;
