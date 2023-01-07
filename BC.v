@@ -1,25 +1,3 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 04.11.2022 10:40:29
-// Design Name: 
-// Module Name: BC
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 module BC #(parameter Cell_Width=4)(output group_generate, output group_propagate,input [Cell_Width-1:0]g,input [Cell_Width-1:0]p);
 wire [Cell_Width-1:0]genAnd;
 wire [Cell_Width-1:0]genOr;
